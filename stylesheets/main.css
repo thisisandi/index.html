@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxM.woff2') format('woff2');
+    font-style: normal;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000, #a1a0a0);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {color: rgb(235, 147, 235);
+font-size: 30px;
+text-decoration: none;
+transition: color 0.5s;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.text p {
+    margin: 0;
+    font-weight: bold;
+}
+
+
+a:hover{
+    color: rgb(156, 55, 156);
+    transform: scale(1);
+}
+
+    
+  header {
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}   
+  
+  h1 {
+    font-size: 50px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+  
+  .avangardLink,
+  .concructLink,
+  .a1928Link,
+  .moiseyLink,
+  .sergeyLink,
+  .ignatLink,
+  .narodLink,
+  .moscowLink,
+  .noviybulLink,
+  .abLink,
+  .a1930Link {
+    color: rgb(235, 147, 235);
+    font-size: 17px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+  
+  .avangardLink:hover,
+  .concructLink:hover,
+  .a1928Link:hover,
+  .moiseyLink:hover,
+  .narodLink:hover,
+  .noviybulLink:hover,
+  .moscowLink:hover,
+  .abLink:hover,
+  .sergeyLink:hover,
+  .ignatLink:hover,
+  .a1930Link:hover {
+    color: rgb(156, 55, 156);
+    transform: scale(2.1);
+}
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+}
+  
+  .text-column {
+    flex: 1;
+    padding: 20px;
+}
+  
+  #section1,
+  #section2,
+  #section3,
+  #section4 {
+    background-color: #71706f; 
+    color: white;
+    padding: 30px; 
+    margin: 10px auto; 
+    max-width: 600px;
+    text-align: justify;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    border: 3px solid #000000;
+}     
+  
+  ul li {
+    color: rgb(235, 147, 235);
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 50px;
+}  
+  
+  ul li:hover {
+    font-weight: bold;
+    color: rgb(156, 55, 156);
+    text-decoration: underline;
+}
+  
+  
